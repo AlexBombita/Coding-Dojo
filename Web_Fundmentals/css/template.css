@@ -1,0 +1,36 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* OUR CSS CODE */
+
+#container {
+    width: 970px;
+    min-height: 200px;
+    background-color: beige;
+    padding: 20px;
+}
+
+#intro_title {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* .subheader {
+    color: blue;
+    margin-bottom: 25px;
+} */
+
+.card {
+    width: 320px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card > h1 {
+    background-color: black;
+}

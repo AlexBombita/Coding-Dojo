@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    width: 700px;
+    height: 450px;
+    border: solid #000000;
+    background-color: #ffffff;
+    margin: 100px 100px;
+}
+
+/* -----------------------------navBar------------------------ */
+
+#navBar {
+    width: 537px;
+    height: 50px;
+    background-color: #c1c1c1;
+    margin-left: 70px;
+    padding: 10px;
+    display: flex;
+}
+
+#dojoLogo {
+    color: #000000;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+#searchBar {
+    width: 215px;
+    height: 25px;
+    border: solid   black;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 5px;
+    color: #aeaeae;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+#loginHandler {
+    width: 50px;
+    height: 20px;
+    background-color: #2b77e4;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 65px;
+    margin-top: 10px;
+    box-shadow: 3px 3px black;
+}
+/* -----------------------------topRow-------------------- */
+
+#topRow {
+    display: flex;
+}
+
+
+
+/* <!-- --------------------------wordBox-----------------------------> */
+
+
+.wordBox {
+    width: 355px;
+    height: 150px;
+    background-color: white;
+    border: solid black;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.wordDisplayed {
+    color: black;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 86px;
+    text-align: center;
+}
+
+.wordClass {
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 86px;
+    text-align: center;
+
+
+}
+.wordPlural {
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 86px;
+    text-align: center;
+}
+
+#likeHandler {
+    width: 80px;
+    height: 25px;
+    background-color: #ffd866;
+    box-shadow:  3px 3px black;
+    color: #000000;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.block {
+    height: 50px;
+    width: 200px;
+    background-color: silver;
+    border: 1px dotted black;
+}
+
+/* <!-- --------------------------addDefinition-----------------------------> */
+
+#addDefinition {
+    width: 170px;
+    height: 100px;
+    border: solid black;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 25px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#addButton {
+    width: 160px;
+    height: 30px;
+    background-color: #92c47c;
+    box-shadow: 3px 3px black;
+    margin-top: 10px;
+}

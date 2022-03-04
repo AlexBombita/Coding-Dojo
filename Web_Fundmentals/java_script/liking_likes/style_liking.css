@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 810px;
+    height: 900px;
+    background-color: white;
+    border: black solid;
+    margin: 100px 100px;
+    padding: 0px 50px;
+}
+
+#headerBar {
+    width: 800px;
+    height: 50px;
+    background-color: black;
+    font-family: sans-serif;
+    font-size: 30px;
+    /* margin-left: 100px; */
+    color: white;
+    padding-top: 15px;
+    padding-left: 15px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#body {
+    display: flex;
+    vertical-align: top
+}
+
+#leftCol{
+}
+
+#jamesBox {
+    width: 200px;
+    height: 300px;
+    border: solid black;
+    background-color: white;
+    padding: 25px 30px;
+    align-items: center;
+}
+
+#icon {
+    width: 100px;
+    margin-left: 50px;
+}
+
+#addAvatar {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+#userName {
+    margin-left: 10px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 37px;
+    color: black;
+}
+
+.someUserBox {
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    border: solid black;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    padding: 30px;
+    font-family: sans-serif;
+}
+
+.someUserBoxTopRow {
+    font-family: sans-serif;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: sans-serif;
+    margin-right: 100px;
+}
+
+#yourFeed {
+    width: 800px;
+    height: 50px;
+    margin-top: 30px;
+    /* margin-left: 400px; */
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    font-size: 30px;
+    margin-left: 30px;
+    box-shadow: 3px 3px black;
+    background-color: yellow;
+}
+

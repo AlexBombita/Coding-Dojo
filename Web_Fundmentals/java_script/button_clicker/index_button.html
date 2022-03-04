@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buttonClicker</title>
+    <link rel="stylesheet" href="style_button.css">
+</head>
+<body>
+    <div id="container">
+
+<!-- ---------------------------navBar------------------------- -->
+        
+        <div id="navBar">
+            <div id="dojoLogo">
+                Dojonary
+            </div>
+            <div id="searchBar">
+                Search
+            </div>
+            <button id="loginHandler" onclick="loginHandler(this)">
+                Login
+            </button>  
+        </div>
+
+
+<!----------------------------topRow----------------------------->
+
+        <div id="topRow">
+            <div class="wordBox">
+                <p class="wordDisplayed">ninja</p>
+                <p class="wordClass">noun</p>
+                <p class="wordPlural">Plural: <i>ninjas</i></p>
+                <button id="likeHandler" onclick="alert('Ninja was liked')">
+                    13 likes
+                </button>
+            </div>
+            <div id="addDefinition">
+                Dojonary is defined by YOU
+                <button id="addButton" onclick="hide(this)">
+                    Add Definition
+                </button>
+            </div>
+        </div>
+
+<!-- -----------------bottomRow----------------- -->
+
+        <div class="wordBox">
+            <p class="wordDisplayed">ninja</p>
+            <p class="wordClass">noun</p>
+            <p class="wordPlural">Plural: <i>ninjas</i></p>
+            <button id="likeHandler" onclick="alert('Ninja was liked')">
+                37 likes
+            </button>
+        </div>
+
+
+
+    </div>
+    <script src="script_button.js"></script>
+</body>
+</html>

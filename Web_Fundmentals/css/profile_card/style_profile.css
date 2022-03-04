@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#container {
+    height: 400px;
+    width: 800px;
+    margin: 100px;
+    background-color: beige;
+    display: flex;
+}
+
+#topBox {
+    height: 150px;
+    width: 800px;
+    background-color: teal;
+}
+
+#userCircle {
+    width: 100px;
+    position: fixed;
+    left: 150px;
+    top: 200px;
+}
+
+
+#bottomBox {
+    height: 250px;
+    width: 2000px;
+    border: gray solid;
+    background-color: white;
+}

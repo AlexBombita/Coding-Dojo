@@ -1,0 +1,334 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    width: 1000px;
+    height: 650px;
+    margin: 100px;
+    background-color: white;
+    border: black solid;
+}
+
+/* ------------------------navBar--------------------------- */
+
+.navBar {
+    height: 60px;
+    width: 800px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+    margin-bottom: 25px;
+}
+
+.navTitle {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navLinks {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    list-style: none;
+    color: lightgray;
+}
+
+.btn {
+    font-size: 15pt;
+    color: white;
+    width: 100px;
+    background-color: teal;
+    box-shadow: 5px 5px black;
+    margin-left: 220px;
+}
+
+.navLinks a {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px 20px;
+    color: gray;
+}
+
+#myProfile {
+    color: white;
+}
+
+/* -----------------------------mainProfileBox---------------------- */
+
+#body {
+    display: flex;
+
+}
+
+#mainProfileBox {
+    color: white;
+    border: lightgray solid 5px;
+    height: 325px;
+    width: 400px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+#mainProfileTop {
+    height: 75px;
+    width: 400px;
+    background-color: teal;
+    display: flex;
+}
+
+#profileImage { 
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: fixed;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-left: 34px;
+    border: 5px solid black;
+    outline: 5px solid lightgray;
+}
+
+#mainProfileInfo > h1 {
+    color: black;
+    font-size: 20pt;
+    font-family: sans-serif;
+    margin-top: 75px;
+    margin-left: 30px;
+    margin-bottom: 10px
+}
+
+#proTop {
+    display: flex;
+    height: 150px;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+#mainProfileInfo > img {
+    width: 20px;
+    margin-left: 30px;
+}
+
+#mainProfileInfo > h2 {
+    font-family: sans-serif;
+    color: black;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: inline-block
+}
+
+#mainProfileInfo p {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+#gear {
+    width: 20px;
+    color: teal;
+}
+
+#mainProfileInfo > a {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: teal;
+}
+
+/* ----------------------connectionRequestBox--------------------- */
+
+#connectionRequest {
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    border: solid 5px lightgray;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 25px;
+}
+
+#connectTop {
+    width: 330px;
+    height: 25px;
+    background-color: black;
+    padding: 15px 10px;
+    display: flex;
+}
+
+#requestCount {
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 50%;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: black;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#connectTop > h2 {
+    color: white;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.requesterIcon {
+    width: 20 px;
+    margin-left: 20px;
+}
+
+#requesters p {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.accept {
+    width: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+.reject {
+    width: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.accept2 {
+    width: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.reject2 {
+    width: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* -------------------------educationBox------------------- */
+
+#educationBox {
+    height: 140px;
+    width: 400px;
+    border: solid 5pt lightgray;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+#educationTop {
+    width: 380px;
+    height: 25px;
+    background-color: black;
+    padding: 15px 10px;
+}
+
+#educationTop > h2 {
+    color: white;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-left: 25px;
+
+}
+
+.education1 {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: black;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+#educationDate {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: gray;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+/* -------------------------connectionList----------------------- */
+
+#connectionListBox {
+    height: 266px;
+    width: 350px;
+    border: solid 5pt lightgray;
+    margin-left: 25px;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+#connectionTop {
+    width: 330px;
+    height: 25px;
+    background-color: black;
+    padding: 15px 10px;
+    display: flex;
+}
+
+#educationTop > h2 {
+    color: white;
+    font-family: sans-serif;
+    display: inline-block
+    margin-left: 25px;
+}
+
+#yourConnections {
+    width: 80px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 50%;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: black;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#connectionTop > h2 {
+    color: white;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+#connections {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+    display: inline-block
+}
+
+#adrien {
+    display: flex;
+}
+
+#anne{
+    display: flex;
+}
+#alayne {
+    display: flex;
+}
+#arry {
+    display: flex;
+}

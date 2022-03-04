@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 1200px;
+    height: 1200px;
+    background-color: beige;
+    padding: 100px 100px;
+}
+
+/* ----------------increaseLikesButton-------------------- */
+
+#increaseLikeButton {
+    margin: 50px 50px;
+}
+
+/* ----------------changingImage-------------------- */
+
+#changingImage {
+    margin: 50px 50px;
+
+}
+
+/* ----------------alertConfirmFunction-------------------- */
+
+#alertConfirmFunction {
+    margin: 50px 50px;
+}
+
+/* /* ---------------------removeElementFunction------------------- */
+
+#removeElementFunction {
+    margin: 50px 50px;
+}
+
+/* ----------------------------setTimeoutFunction-----------------------  */
