@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#container {
+    width: 1500px;
+    height: 2000px;
+    padding: 100px 300px;
+    border: solid black;
+
+}
+
+.menuButton {
+    width: 60px;
+    color: white;
+    background-color: transparent;
+}
+
+.dropbtn {
+    background-color: #5e3826;
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #5e3826;
+  }
+  
+  .dropdown {
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px #5e3826;
+    left: 0px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: block;
+  }
+  
+  .dropdown a:hover {
+      background-color: #5e3826;
+    }
+  
+  .show {
+      display: block;
+    }
+
+
+
+#menuTopRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+#menuTitle > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 150px;
+}
+
+#menuTop {
+    display: flex;
+}
+
+.menuItems {
+    margin-right: 300px;
+}
+
+.menuItems {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+.menuItems p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.menuEntreeRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.menuItems > h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    /* margin-bottom: 50px; */
+}
+
+#topRow {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#navBar {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 100px;
+}
+
+.navBarText {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#logo {
+    width: 700px;
+    margin-bottom: 100px;
+    border-radius: 400px;
+}
+
+.logoCorner {
+    border-radius: 400px;
+}
+
+#secondRow {
+    text-align: center;
+}
+
+#homePageImg {
+    width: 500px;
+    margin-right: 30px;
+}
+
+.fourthRow {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+#menuBottomRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.menuImg {
+    height: 400px;
+    margin-right: 50px;
+    /* vertical-align: middle; */
+}
+
+#aboutUs {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+#aboutUsBottomRow {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+#aboutUsBottomRow {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    display: flex;
+}
+
+#aboutUsBottomRow img {
+    margin-left: 100px;
+}
+
+#aboutUsLogo {
+    margin-left: auto;
+    display: block;
+    border-radius: 400px;
+}
+
+#aboutUsImg {
+    width: 400px;
+}
+
+#contactUsTopRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+#contactUsBottomRow {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: top;
+    margin-bottom: 100px;
+}
+
+.mumuMap {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#contactUsImg {
+    height: 513px;
+}
+
+
+#mumuMapImg {
+    height: 579px;
+}
+
+#name {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 505px;
+    height: 25px;
+    font-size: 22px;
+}
+
+#email {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 505px;
+    height: 25px;
+    font-size: 22px;
+}
+
+#message {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+#phoneNumber {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 505px;
+    height: 25px;
+    font-size: 22px;
+}
+
+#submitButton {
+    width: 200px;
+    height: 40px;
+    border-radius: 25PX;
+    background-color: #5e3826;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contactUs1Col {
+    display: flex;
+}
+
+#contactUsLogo {
+    display: flex;
+}
+
+#commentForm {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#drinksImg {
+    width: 700px;
+}
+#ofPeople {
+    display: flex;
+    gap: 10px;
+}
+
+#people {
+    background-color: lightgray;
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+label {
+    display: block;
+    /* font: 1rem 'Fira Sans', sans-serif; */
+}
+
+/* input,
+label {
+    margin: .4rem 0;
+} */
+
+#dateTimePicker {
+    width: 400px;
+    height: 30px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+#container a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    white-space: 3px;
+    vertical-align: middle;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}

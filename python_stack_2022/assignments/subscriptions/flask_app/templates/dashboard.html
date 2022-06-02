@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Welcome {{user.first_name}}!</h1>
+    <a href="/new/subscription" class="btn btn-primary">Add Magazine</a>
+    <a href="/edit/user/{{user.id}}" class="btn btn-primary">Account</a>
+    <a href="/logout" class="btn btn-info">Logout</a>
+    <h4>Magazines</h4>
+        {% for subscription in subscriptions %} 
+        <a href="/subscription/{{subscription.id}}"">{{subscription.title}}</a> 
+        added by {{user.first_name, user.last_name}}
+        <br>
+        {% endfor %}
+</body>
+</html>

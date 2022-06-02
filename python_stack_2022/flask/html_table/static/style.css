@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    min-width: 500px;
+    height: 900px;
+    margin: 100px;
+}
+
+
+th, tr, td {
+    width: 200px;
+    border: 2px solid black;
+    text-align: left;
+    padding: 5px;
+}
+

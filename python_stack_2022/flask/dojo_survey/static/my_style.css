@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 300px;
+    min-height: 300px;
+    border: solid black;
+    margin: 100px;
+    padding: 50px;
+}
+
+#container2 {
+    width: 300px;
+    min-height: 300px;
+    border: solid black;
+    margin: 100px;
+    padding: 50px;
+}
+
+.inputBox {
+    width: 300px;
+}
+
+.commentBox {
+    width: 300px;
+    height: 300px;
+    vertical-align: top;
+}

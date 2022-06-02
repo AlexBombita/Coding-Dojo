@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>reservations</title>
+</head>
+<body>
+    <div id="container">
+        <div id="contactUsTopRow">
+            <div id="contactUs1Col">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"><img src="../static/images/menu.png" alt="menu_button" class="menuButton">
+                    </button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="/">Home</a>
+                        <a href="/menu">Menu</a>
+                        <a href="/drinks">Drinks</a>
+                        <a href="https://www.doordash.com/store/mumu-hot-pot-foster-city-864410/?utm_campaign=gpa"  target="_blank">Order Online</a>
+                        <a href="/reservations">Reservations</a>
+                        <a href="/about_us">About Us</a>
+                        <a href="/contact_us">Contact Us</a>
+                    </div>
+                </div>
+                <div id="menuTitle">
+                    <h1>RESERVATIONS</h1>
+                </div>
+            </div>
+            <div>
+                <img class="logoCorner" src="../static/images/mumuLogo.jpeg" alt="mumu_hot_pot_logo">
+            </div>
+        </div>
+        <div id="commentForm">
+            <form action="https://formsubmit.co/abombita707@gmail.com" method="POST">
+                <label for="name">Your name</label>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5000/thank_you">
+                <input type="text" name="name" id="name" placeholder="First and Last Name" required>
+                <input type="hidden" name="_captcha" value="false">
+                <label for="phoneNumber">Your phone #</label>
+                <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="(###) ###-####" required>
+                <label for="email">Your email</label>
+                <input type="email" name="email" id="email" placeholder="your_email@gmail.com"required>
+                <br>
+                <label for="meeting-time">Choose a date and time</label>
+                <input id="dateTimePicker" type="datetime-local" id="meeting-time"
+                name="meeting-time" value="2022-04-01T14:52"
+                min="2022-01-07T12:00" max="2022-12-31T21:00">
+                <div id="ofPeople">
+                <label for="people"># of people</label>
+                <select name="people" id="people">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7+">7+</option>
+                </select>
+                </div>
+                <textarea name="message" id="message" placeholder="Write your message here!"cols="44" rows="10" required></textarea>
+                <br>
+                <input type="submit" value="Send Message" id="submitButton">
+                <br>
+            </form>
+        </div>
+
+
+
+
+    </div>    
+    <script type="module" src="../../source/modules/smart.datetimepicker.js"></script> 
+    <script type="module" src="../../source/modules/smart.radiobutton.js"></script> 
+    <script type="module" src="index.js"></script>	
+    <script src="../static/script.js"></script>
+</body>
+</html>

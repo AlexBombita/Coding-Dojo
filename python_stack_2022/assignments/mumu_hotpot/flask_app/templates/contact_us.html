@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>contact_us</title>
+</head>
+<body>
+    <div id="container">
+        <div id="contactUsTopRow">
+            <div id="contactUs1Col">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"><img src="../static/images/menu.png" alt="menu_button" class="menuButton">
+                    </button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="/">Home</a>
+                        <a href="/menu">Menu</a>
+                        <a href="/drinks">Drinks</a>
+                        <a href="https://www.doordash.com/store/mumu-hot-pot-foster-city-864410/?utm_campaign=gpa"  target="_blank">Order Online</a>
+                        <a href="/reservations">Reservations</a>
+                        <a href="/about_us">About Us</a>
+                    </div>
+                </div>
+                <div id="menuTitle">
+                    <h1>CONTACT US</h1>
+                </div>
+            </div>
+            <div>
+                <img class="logoCorner" src="../static/images/mumuLogo.jpeg" alt="mumu_hot_pot_logo">
+            </div>
+        </div>
+        <div id="contactUsBottomRow">
+            <div>
+                <a href="https://www.google.com/search?rlz=1C5CHFA_enUS947US947&tbs=lf:1,lf_ui:9&tbm=lcl&sxsrf=APq-WBuEYTadNrohmCyYLuoHHRvpR7MpSQ:1648679545558&q=mumu+hot+pot&rflfq=1&num=10#rlfi=hd:;si:2961868241663717993,l,CgxtdW11IGhvdCBwb3RIoPu14JyvgIAIWhoQABABEAIYABgBGAIiDG11bXUgaG90IHBvdJIBEmhvdF9wb3RfcmVzdGF1cmFudA,y,OHZBldHkChE;mv:[[37.56071995410956,-122.26357543153982],[37.55739023817203,-122.2716220585845],null,[37.55905511474063,-122.26759874506216],18]" target="_blank">     
+                <p class="mumuMap">Foster Square Ln #135</p>
+                <p class="mumuMap">Foster City, CA 94404</p>          
+                <img src="../static/images/mumu_map.png" alt="mumu_map">
+                </a>
+            </div>
+            <div>
+                <p>(650) 242-1945</p>
+                <p>mumuhotpot@gmail.com</p>
+                <img id="contactUsImg" src="../static/images/Mumu store 1.png" alt="mumu_4">
+            </div>
+        </div>
+        <div id="commentForm">
+            <form action="https://formsubmit.co/abombita707@gmail.com" method="POST">
+                <label for="name">Your name</label>
+                <br>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5000/thank_you">
+                <input type="text" name="name" id="name" placeholder="First and Last Name" required>
+                <input type="hidden" name="_captcha" value="false">
+                <br>
+                <label for="phoneNumber">Your phone #</label>
+                <br>
+                <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="(###) ###-####" required>
+                <br>
+                <label for="email">Your email</label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="your_email@gmail.com"required>
+                <br>
+                <label for="message">Message</label>
+                <br>
+                <textarea name="message" id="message" placeholder="Write your message here!"cols="44" rows="10" required></textarea>
+                <br>
+                <input type="submit" value="Send Message" id="submitButton">
+            </form>
+        </div>
+
+
+
+
+    </div>    
+    <script src="../static/script.js"></script>
+</body>
+</html>

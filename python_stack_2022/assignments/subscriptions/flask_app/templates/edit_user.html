@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udpate User</title>
+</head>
+<body>
+    <a href="/new/subscription" class="btn btn-primary">Add Magazine</a>
+    <a href="/dashboard">Dashboard</a>
+    <a href="/logout">Logout</a>
+    <form action="/update/user" method="post">
+        <h2>Update User</h2>
+        {% with messages = get_flashed_messages(category_filter=['user_update']) %}
+        {% if messages %}
+        {% for message in messages %}
+        <p>{{message}}</p>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+        <input type="hidden" name="id" value={{user.id}}>
+        <br>
+        <label for="first_name">First Name:</label>
+        <br>
+        <input type="text" name="first_name" value="{{user.first_name}}">
+        <br>
+        <label for="last_name">Last Name:</label>
+        <br>
+        <input type="text" name="last_name" value="{{user.last_name}}">
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="text" name="email" value="{{user.email}}">
+        <br>
+        <input type="submit" value="Update">
+    </form>
+
+
+<h2>User's Magazines</h2>
+<p>People
+<a href="">delete</a>
+</p>
+<p>Wired
+    <a href="">delete</a>
+    </p>
+<p>National Geographic
+    <a href="">delete</a>
+    </p>
+<p>Iron Man
+    <a href="">delete</a>
+</p>
+{% for subscription in subscriptions %} 
+<a href="/subscription/{{subscription.id}}"">{{subscription.title}}</a> 
+{% endfor %}
+</body>
+</html>

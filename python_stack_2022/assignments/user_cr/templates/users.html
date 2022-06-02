@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>users</title>
+</head>
+<body>
+    <h1>users</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for each_user in user_html %}
+                <tr>
+                    <td>{{each_user.id}}</td>
+                    <td>{{each_user.first_name}}</td>
+                    <td>{{each_user.last_name}}</td>
+                    <td>{{each_user.email}}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="/user/new" class="'btn btn-primary">Add a New User</a> 
+
+
+</body>
+</html>

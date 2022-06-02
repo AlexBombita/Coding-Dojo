@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 900px;
+    height: 900px;
+    background-color: beige;
+    border: solid black;
+}
+
+#profilePicture {
+    width: 200px;
+}
+
+#quicklinks {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+
+}
+
+.icon {
+    width: 30px;
+
+}
+
+h2 {
+    font-family: sans-serif;
+    color: black;
+    font-style: bold;
+}
+
+#technologies {
+    width: 600px;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    justify-content: space-between;
+}
+
+h3 {
+    border-right: solid black;
+    border-bottom: solid black;
+}
+
+#frontEnd p {
+    border-right: solid black;
+    border-bottom: solid black;
+}
+
+#python p {
+    border-right: solid black;
+    border-bottom: solid black;
+}
+
+#javaScript p {
+    border-right: solid black;
+    border-bottom: solid black;
+}
+
+#database p {
+    border-right: solid black;
+    border-bottom: solid black;
+}
+
+#concepts p {
+    border-right: solid black;
+    border-bottom: solid black;
+}
+
+#instagramIcon {
+    width: 50px;
+}
+
+#socialSnakes > p {
+    font-family: sans-serif;
+    color: black;
+    font-size: 15px;
+    
+}
