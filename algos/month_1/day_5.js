@@ -51,16 +51,20 @@ var pokemon = [
 //     }
 
 // console.log the pokémon objects that have more than one type
+// for (let i = 0; i < pokemon.length; i++) {
+//     if(pokemon[i].types.length > 1){
+//         console.log(pokemon[i])
+//     }
+// }
+
+
+// console.log the names of the pokémon whose only type is "poison"
 for (let i = 0; i < pokemon.length; i++) {
-    if(pokemon[i].types.length > 1){
+    if (pokemon[i].types.length == 1 && pokemon[i].types[0] == "poison") {
         console.log(pokemon[i])
     }
     
 }
-
-
-// console.log the names of the pokémon whose only type is "poison"
-
 
 
 // console.log the first type of all the pokémon whose second type is "flying"
