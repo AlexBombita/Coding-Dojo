@@ -31,11 +31,11 @@ var pokemon = [
 ];
 
 // PRINT ALL THE NAMES OF THE POKEMON WHO'S ID IS GREATER THAN 99
-// for(var i = 0; i < pokemon.length; i++){
-//     if(pokemon[i].id > 99){
-//         console.log(pokemon[i].name)
-//     }
-// }
+for(var i = 0; i < pokemon.length; i++){
+    if(pokemon[i].id > 99){
+        console.log(pokemon[i].name)
+    }
+}
 
 
 // for(var i = 0; i < pokemon.length; i++){
@@ -45,26 +45,26 @@ var pokemon = [
 
 
 // console.log the pokémon objects whose id is evenly divisible by 3
-// for(var i = 0; i < pokemon.length; i++)
-//     if(pokemon[i].id % 3 == 0){
-//         console.log(pokemon[i])
-//     }
+for(var i = 0; i < pokemon.length; i++)
+    if(pokemon[i].id % 3 == 0){
+        console.log(pokemon[i])
+    }
 
 // console.log the pokémon objects that have more than one type
-// for (let i = 0; i < pokemon.length; i++) {
-//     if(pokemon[i].types.length > 1){
-//         console.log(pokemon[i])
-//     }
-// }
+for (let i = 0; i < pokemon.length; i++) {
+    if(pokemon[i].types.length > 1){
+        console.log(pokemon[i])
+    }
+}
 
 
 // console.log the names of the pokémon whose only type is "poison"
-// for (let i = 0; i < pokemon.length; i++) {
-//     if (pokemon[i].types.length == 1 && pokemon[i].types[0] == "poison") {
-//         console.log(pokemon[i])
-//     }
-    // 
-// }
+for (let i = 0; i < pokemon.length; i++) {
+    if (pokemon[i].types.length == 1 && pokemon[i].types[0] == "poison") {
+        console.log(pokemon[i])
+    }
+    
+}
 
 
 // console.log the first type of all the pokémon whose second type is "flying"
