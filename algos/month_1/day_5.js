@@ -45,15 +45,18 @@ var pokemon = [
 
 
 // console.log the pokémon objects whose id is evenly divisible by 3
-for(var i = 0; i < pokemon.length; i++)
-    if(pokemon[i].id % 3 == 0){
-        console.log([i])
-    }
-
-
+// for(var i = 0; i < pokemon.length; i++)
+//     if(pokemon[i].id % 3 == 0){
+//         console.log(pokemon[i])
+//     }
 
 // console.log the pokémon objects that have more than one type
-
+for (let i = 0; i < pokemon.length; i++) {
+    if(pokemon[i].types.length > 1){
+        console.log(pokemon[i])
+    }
+    
+}
 
 
 // console.log the names of the pokémon whose only type is "poison"
