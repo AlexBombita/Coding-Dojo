@@ -31,20 +31,24 @@ var pokemon = [
 ];
 
 // PRINT ALL THE NAMES OF THE POKEMON WHO'S ID IS GREATER THAN 99
-for(var i = 0; i < pokemon.length; i++){
-    if(pokemon[i].id > 99){
-        console.log(pokemon[i].name)
-    }
-}
+// for(var i = 0; i < pokemon.length; i++){
+//     if(pokemon[i].id > 99){
+//         console.log(pokemon[i].name)
+//     }
+// }
 
 
-for(var i = 0; i < pokemon.length; i++){
-    console.log(pokemon[i].types)
-}
+// for(var i = 0; i < pokemon.length; i++){
+//     console.log(pokemon[i].types)
+// }
 
 
 
 // console.log the pokémon objects whose id is evenly divisible by 3
+for(var i = 0; i < pokemon.length; i++)
+    if(pokemon[i].id % 3 == 0){
+        console.log([i])
+    }
 
 
 
