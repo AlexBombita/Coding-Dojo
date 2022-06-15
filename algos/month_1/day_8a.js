@@ -13,6 +13,12 @@ console.log(arr2d[0][2]);
 function flatten(arr2d) {
     var flat = [];
     // your code here
+    for (let i = 0; i < arr2d.length; i++) {
+        for (let j = 0; j < i.length; j++) {
+            arr2d[i].push
+        }
+        
+    }
     // nested loop
     // push the numbers to flat
     return flat;
