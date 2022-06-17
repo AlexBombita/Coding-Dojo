@@ -18,9 +18,15 @@ const expected2 = "god";
  * @returns {string} The given str reversed.
  */
 function reverseString(str_param) {
+  return str_param
+    .split("")
+    .reverse()
+    .join("")
 
 }
 
+console.log(reverseString(str1_arg))
+console.log(reverseString(str2_arg))
 
 
 
