@@ -18,9 +18,18 @@ const expected2 = "LFNYISN";
  * @param {string} str A string to be turned into an acronym.
  * @returns {string} The given str converted into an acronym.
  */
-function acronymize(str_param) {}
+function acronymize(str_param) {
+  var array = str_param.split(" ")
+  var result = ""
+  for (let i = 0; i < array.length; i++) {
+    result += array[i].charAt(0)
+  }
+  result = result.toUpperCase()
+  return result
+  
+}
 
-
+console.log(acronymize(str1_arg))
 
 
 
