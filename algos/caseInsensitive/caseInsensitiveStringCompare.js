@@ -1,12 +1,12 @@
 /* case insensitive string compare */
 R read/repeat/recite 
-I
-O
-T 
+I input what is the data type = strings 2
+O output boolean 
+T talk
 W 
 A 
 L
-K 
+K  
 const strA1 = "ABC";
 const strB1 = "abc";
 const expected1 = true;
