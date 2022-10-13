@@ -1,5 +1,12 @@
 /* case insensitive string compare */
+R read/repeat/recite 
+I
+O
+T 
+W 
+A 
 
+K 
 const strA1 = "ABC";
 const strB1 = "abc";
 const expected1 = true;
