@@ -1,12 +1,12 @@
 /* case insensitive string compare */
-R read/repeat/recite 
-I input what is the data type = strings 2
-O output boolean 
-T talk
-W 
-A 
-L
-K  
+// R read/repeat/recite 
+// I input what is the data type = strings 2
+// O output boolean 
+// T talk
+// W 
+// A 
+// L
+// K  
 const strA1 = "ABC";
 const strB1 = "abc";
 const expected1 = true;
@@ -29,11 +29,10 @@ const expected3 = false;
  */
 
 function caseInsensitiveStringCompare(strA, strB) {
+    return (strA.toUpperCase() === strB.toUpperCase())
 }
 
-
-
-
+console.log(caseInsensitiveStringCompare("ABC", "abc"))
 
 
 
